@@ -36,28 +36,28 @@ Aqui está um exemplo simples de como a seleção de bancos pode ser implementad
 // Exemplo de um componente React para seleção de bancos
 import { useState, useEffect } from 'react';
 
-const BankSelection = () => {
-    const [banks, setBanks] = useState([]);
-    const [blockedBanks, setBlockedBanks] = useState([]);
+const Selecao_bancos = () => {
+    const [bancos, setBancos] = useState([]);
+    const [ocupadosBancos, setOcupadosBanco] = useState([]);
     
     useEffect(() => {
         // Simula a obtenção de dados de bancos de uma API ou arquivo JSON
-        const fetchBanks = async () => {
+        const fetchBancos = async () => {
             const response = await fetch('/api/banks.json');
             const data = await response.json();
             setBanks(data.banks);
         };
 
-        fetchBanks();
+        fetchBancos();
     }, []);
 
     return (
         <div>
             <h2>Selecione seu banco:</h2>
             <ul>
-                {banks.map(bank => (
-                    <li key={bank.id} style={{ textDecoration: blockedBanks.includes(bank.id) ? 'line-through' : 'none' }}>
-                        {bank.name}
+                {bancos.map(bank => (
+                    <li key={banco.id} style={{ textDecoration: ocupadosBancos.includes(banco.id) ? 'line-through' : 'none' }}>
+                        {banco.name}
                     </li>
                 ))}
             </ul>
@@ -65,7 +65,7 @@ const BankSelection = () => {
     );
 };
 
-export default BankSelection;
+export default Selecao_bancos;
 ```
 
 ## Sintaxe do Fetch e Explicação
