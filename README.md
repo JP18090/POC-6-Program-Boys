@@ -1,4 +1,4 @@
-# Forja - Prova de Conceito (POC)
+# Forja - Prova de Conceito (POC6)
 
 ## Objetivo
 Esta prova de conceito (POC) tem como objetivo demonstrar a capacidade do grupo Forja em desenvolver um website utilizando Next.js que permite a compra do filme "A Forja". O site oferece a seleção de 60 bancos, modos claro e escuro dependendo do tema do dispositivo e exibe bancos randomizados bloqueados.
