@@ -7,7 +7,6 @@ Esta prova de conceito (POC) tem como objetivo demonstrar a capacidade do grupo 
 - Vitor Lemos
 - Marcelo Takao
 - José Pedro
-- Guilherme Anaya
 
 ## Tecnologias Utilizadas
 - Next.js
@@ -96,7 +95,8 @@ fetch('/api/banks.json')
 ## Exemplo de Funcionamento
 Abaixo está uma captura de tela do funcionamento da aplicação, mostrando a seleção de bancos e a adaptação do tema.
 
-![Exemplo de Funcionamento](link-da-imagem)
+![image](https://github.com/user-attachments/assets/ff13f88b-0fce-4714-a32d-812c43c27b20)
+![image](https://github.com/user-attachments/assets/98e552db-17ef-41d9-acc0-bfba1b6523e6)
 
 ## Considerações Finais
 A POC "Forja" demonstra a capacidade do grupo em criar uma aplicação web interativa e responsiva utilizando Next.js, com foco na experiência do usuário e na funcionalidade de compra do filme "A Forja". A randomização de bancos e a adaptação de tema são recursos que enriquecem a usabilidade do site. 
